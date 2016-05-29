@@ -1,0 +1,81 @@
+{
+
+"header" : {
+  "navbar" : {
+    "UPLOAD" : "上传",
+    "new" : {
+      "NEW" : "新闻",
+      "PROJECT" : "项目",
+      "TASK" : "任务",
+      "USER" : "用户",
+      "EMAIL" : "邮件"
+    },
+    "NOTIFICATIONS" : "通知"
+  },
+  "app" : {
+    "Apps" : "应用",
+    "list" : {
+      "Note": "笔记",
+      "Contacts": "通讯录",
+      "Weather" : "天气"
+    }
+  }
+},
+"aside" : {
+  "nav" : {
+    "HEADER" : "头部",
+    "DASHBOARD" : "指示板",
+    "CALENDAR" : "日历",
+    "EMAIL" : "邮件",
+    "WIDGETS" : "小部件",
+    "Layout" : "布局",
+    "components" : {
+      "COMPONENTS" : "组件",
+      "ui_kits" : {
+        "UI_KITS" : "界面工具包",
+        "BUTTONS" : "按钮",
+        "ICONS" : "图标",
+        "GRID" : "表格",
+        "BOOTSTRAP" : "引导",
+        "SORTABLE" : "可排序",
+        "PORTLET" : "PORTLET",
+        "TIMELINE" : "时间轴",
+        "VECTOR_MAP" : "矢量地图"
+      },
+      "table" : {
+        "TABLE" : "表格",
+        "TABLE_STATIC" : "表格 静态",
+        "DATATABLE" : "数据表",
+        "FOOTABLE" : "FOO表格"
+      },
+      "form" : {
+        "FORM" : "表单",
+        "FORM_ELEMENTS" : "表单元素",
+        "FORM_VALIDATION" : "表单验证",
+        "FORM_WIZARD" : "表单向导"
+      },
+      "CHART" : "图表",
+      "pages" : {
+        "PAGES" : "页面",
+        "PROFILE" : "设置",
+        "POST" : "帖子",
+        "SEARCH" : "搜索",
+        "INVOICE" : "发票",
+        "LOCK_SCREEN" : "锁定屏幕",
+        "SIGNIN" : "登录",
+        "SIGNUP" : "登出",
+        "FORGOT_PASSWORD" : "忘记 密码",
+        "404" : "找不到页面"
+      }
+    },
+    "your_stuff" : {
+      "YOUR_STUFF": "我的资料",
+      "PROFILE" : "设置",
+      "DOCUMENTS" : "文档"
+    }
+  },
+  "MILESTONE" : "里程碑",
+  "RELEASE" : "版本发布"
+}
+
+}

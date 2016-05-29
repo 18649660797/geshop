@@ -11,6 +11,14 @@
       "EMAIL" : "Email"
     },
     "NOTIFICATIONS" : "Notifications"
+  },
+  "app" : {
+    "Apps" : "Apps",
+    "list" : {
+      "Note": "Note",
+      "Contacts": "Contacts",
+      "Weather" : "Weather"
+    }
   }
 },
 "aside" : {
@@ -20,6 +28,7 @@
     "CALENDAR" : "Calendar",
     "EMAIL" : "Email",
     "WIDGETS" : "Widgets",
+    "Layout" : "Layout",
     "components" : {
       "COMPONENTS" : "Components",
       "ui_kits" : {

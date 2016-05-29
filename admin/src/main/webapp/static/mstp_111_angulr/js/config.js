@@ -22,10 +22,10 @@ angular.module('app')
     // Those urls are [prefix][langKey][suffix].
     $translateProvider.useStaticFilesLoader({
       prefix: 'l10n/',
-      suffix: '.js'
+      suffix: '.json'
     });
     // Tell the module what language to use by default
-    $translateProvider.preferredLanguage('en');
+    $translateProvider.preferredLanguage('zh_cn');
     // Tell the module to store the language in the local storage
     $translateProvider.useLocalStorage();
   }]);
