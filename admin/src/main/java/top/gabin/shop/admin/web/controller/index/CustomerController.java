@@ -4,11 +4,11 @@
  */
 package top.gabin.shop.admin.web.controller.index;
 
-import gabin.core.entity.Customer;
-import gabin.core.jpa.criteria.query.dto.PageDTO;
-import gabin.core.jpa.criteria.query.service.CriteriaQueryService;
-import gabin.core.jpa.criteria.query.uil.CriteriaQueryUtils;
-import gabin.core.utils.http.RenderUtils;
+import top.gabin.core.entity.Customer;
+import top.gabin.core.jpa.criteria.query.dto.PageDTO;
+import top.gabin.core.jpa.criteria.query.service.CriteriaQueryService;
+import top.gabin.core.jpa.criteria.query.uil.CriteriaQueryUtils;
+import top.gabin.core.utils.http.RenderUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

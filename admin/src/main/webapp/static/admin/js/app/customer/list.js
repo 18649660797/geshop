@@ -33,8 +33,12 @@ app.controller('MailCtrl', ['$scope', function($scope) {
 
 }]);
 
-app.controller('MailListCtrl', ['$scope', 'mails', '$stateParams', function($scope, mails, $stateParams) {
+app.controller('MailListCtrl', ['$scope', 'mails', '$stateParams', '$http', function($scope, mails, $stateParams, $http) {
     $scope.type = $stateParams.type;
+    $http.get("/customer/data").success(function(response) {
+        $scope.customers = response.rows;
+    });
+    console.log("###########");
     mails.all().then(function(mails){
         $scope.mails = mails;
     });
