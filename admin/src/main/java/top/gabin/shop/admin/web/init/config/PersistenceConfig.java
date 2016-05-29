@@ -33,7 +33,7 @@ import java.util.Properties;
 @EnableSpringDataWebSupport
 @EnableTransactionManagement
 @PropertySource(value = {"classpath:application.properties"})
-@EnableJpaRepositories(basePackages = "top.gabin.shop.admin.dao")
+@EnableJpaRepositories(basePackages = {"top.gabin.core.dao", "top.gabin.shop.admin.dao"})
 public class PersistenceConfig {
     @Autowired
     private Environment env;

@@ -11,6 +11,7 @@
     <modules>
         <module>admin</module>
         <module>web</module>
+        <module>core</module>
     </modules>
     <properties>
         <spring.version>4.2.4.RELEASE</spring.version>
