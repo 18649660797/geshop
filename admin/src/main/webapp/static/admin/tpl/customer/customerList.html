@@ -25,7 +25,7 @@
     <!-- / header -->
     <!-- list -->
     <ul class="list-group list-group-lg no-radius m-b-none m-t-n-xxs">
-        <li ng-repeat="customer in customers" ng-class="labelClass(mail.label)" class="list-group-item clearfix b-l-3x">
+        <li ng-repeat="customer in customers" ng-class="labelClass(customer.id)" class="list-group-item clearfix b-l-3x">
             <a ui-sref="app.page.profile" class="avatar thumb pull-left m-r">
                 <img ng-src="img/a10.jpg">
             </a>
@@ -34,7 +34,7 @@
                 <i class="fa fa-paperclip ng-hide m-l-sm" ng-show="{{mail.attach}}"></i>
             </div>
             <div class="clear">
-                <div><a ui-sref="app.mail.detail({mailId:mail.id})" class="text-md">{{customer.userName}}</a><span class="label bg-light m-l-sm">{{mail.label}}</span></div>
+                <div><a ui-sref="app.mail.detail({mailId:mail.id})" class="text-md">{{customer.userName}}</a><span class="label bg-light m-l-sm">{{customer.id}}</span></div>
                 <div class="text-ellipsis m-t-xs">{{customer.realName | limitTo:100}}</div>
             </div>
         </li>
